@@ -4,7 +4,7 @@ THERMINATOR [1] is a Monte Carlo event generator designed for studies of particl
 
 https://www.ifj.edu.pl/dept/no4/nz41/programs/therminator/
 
-To include the effects of vorticity, it is necessary to modify the following files
+To include the effects of vorticity, it is necessary to modify the following files (therminator_mod)
 
 1. thermitator.in
 2. therm_events.cxx
