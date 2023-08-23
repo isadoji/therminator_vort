@@ -1,10 +1,5 @@
 # Modified blast-wave model with thermal vorticity
-￼
-%\title{Overall description of $\Lambda$ and $\overline{\Lambda}$ global polarization in semi-central heavy-ion collisions \\ at HADES, NICA and RHIC energies from the core-corona model}%
-￼
-\author{José Jorge Medina Serna$^{1,2}$}
-\author{Isabel Dom\'inguez Jim\'enez$^1$}
-\author{Mar\'ia Elena Tejeda-Yeomans$^{3}$}
+￼José Jorge Medina Serna, Isabel Domínguez Jiménez, Maréa Elena Tejeda-Yeomans$^{3}$
   \address{
   $^{1}$Facultad de Ciencias F\'isico-Matem\'aticas, Universidad Aut\'onoma de Sinaloa, Avenida de las Am\'ericas y Boulevard Universitarios, Ciudad Universitaria, C.P. 80000, Culiac\'an, Sinaloa, M\'exico. \\
   $^{2}$Instituto de Ciencias Nucleares, Universidad Nacional Aut\'onoma de M\'exico, Apartado Postal 70-543, CdMx 04510, M\'exico. \\
