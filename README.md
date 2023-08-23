@@ -16,9 +16,11 @@ To include the effects of vorticity, it is necessary to modify the following fil
 
 The therminator.in file contains all the input parameters needed to generate the events. The modification to be made will be to add an extra parameter, which will correspond to omega. This can be done with the following lines of code anywhere in the file:
 
-L66 #vorticity parameter
-
+L66 
+´´´
+#vorticity parameter
 L67 Omega = 0
+
 
 # 2. therm_events.cxx
 
