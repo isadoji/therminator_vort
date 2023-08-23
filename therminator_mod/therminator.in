@@ -63,7 +63,7 @@ BWA = -0.5
 Tau = 9.74
 # maximum transverse radius [fm] 
 RhoMax = 7.74
-#Parametro de vorticidad
+#vorticity parameter
 Omega = 1
 # Temperature [GeV]
 Temperature = 0.1656
