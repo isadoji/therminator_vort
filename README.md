@@ -19,67 +19,61 @@ The therminator.in file contains all the input parameters needed to generate the
 L66 
 ```
 #vorticity parameter
-L67 Omega = 0
+Omega = 0
 ```
 
 # 2. therm_events.cxx
 
 The therm_events.cxx file reads the input parameters from the therminator.in file. The modification to be made will be so that the recently added extra parameter Omega is read. 
 
-L43 double mOmega;
-
-L44 double zRhoMax;
-
+L43 
+```
+double mOmega;
+double zRhoMax;
+```
 L99:
-
+```
 if ((sModel == 0) || (sModel == 2)){
-
 try {
-
 mOmega = atof(sRPInstance->getPar"Omega").Data());
-
 }
-
 catch (STR tError) {
-
 mOmega = 0.0;
-
 }
-
 }
-
 if ((sModel == 0) || (sModel == 2)){
-
 try {
-
 zRhoMax = atof(sRPInstance->getPar"RhoMax").Data());
-
 }
-
 catch (STR tError) {
-
 zRhoMax = 0.0;
-
 }
-
 }
-
+```
 # 3. Integrator.cxx
 
 Integrator.cxx file performs all the Monte Carlo computation of the Cooper-Frye integral, so you have to declare the external variable omega
 
-L37 extern double mOmega;
+L37 
+```
+extern double mOmega;
+```
 
 # 4. Particle.cxx
 
 Particle.cxx file saves the particles of each event into output file. The modification will be made in the momentum of generated particles, where a small "smearing" will be the responsible to generate vorticity 
 
 
-L37 extern double mOmega;
+L37 
+```
+extern double mOmega;
+extern double zRhoMax;
+```
 
-L38 extern double zRhoMax;
-
-L57 pz=tMt*TMath::Sinh(aRapidity) + mOmega*GetMass()*aRho*TMath::Cos(aPhis)*TMath::Exp(-aRho*aRho/(2*zRhoMax*zRhoMax))/zRhoMax;
+L57 
+```
+pz=tMt*TMath::Sinh(aRapidity) + mOmega*GetMass()*aRho*TMath::Cos(aPhis)*TMath::Exp(-aRho*aRho/(2*zRhoMax*zRhoMax))/zRhoMax;
+```
 
 # Compilation
 Once the modifications described above have been made, therminator must be compiled. For that you need a C++ compiler and the ROOT [2] libraries. The make command is executed in the directory where therminator is modified.
