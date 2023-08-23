@@ -64,7 +64,7 @@ Tau = 9.74
 # maximum transverse radius [fm] 
 RhoMax = 7.74
 #vorticity parameter
-Omega = 1
+Zeta = 1
 # Temperature [GeV]
 Temperature = 0.1656
 # Chemical potentials for Isospin, Strangeness, Barion [GeV]

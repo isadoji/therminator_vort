@@ -40,7 +40,7 @@ int      sRunType;
 int      sTables;
 int      sModel;
 int      sIntegrateSample;
-double mOmega;
+double mZeta;
 double zRhoMax;
 void ReadParameters()
 {
@@ -90,11 +90,11 @@ void ReadParameters()
     exit(0);
    if ((sModel == 0) || (sModel == 2)) {
     try {
-      mOmega  = atof(sRPInstance->getPar("Omega").Data());
+      mZeta = atof(sRPInstance->getPar("Zeta").Data());
     }
     catch (STR tError) {
       // Using default value of 0
-      mOmega = 0.0;
+      mZeta = 0.0;
     }
   }
       if ((sModel == 0) || (sModel == 2)) {

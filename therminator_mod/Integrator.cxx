@@ -34,7 +34,7 @@
 extern ReadPar *sRPInstance;
 extern int      sTables;
 extern int      sModel;
-extern double mOmega;
+extern double mZeta;
 Integrator::Integrator(int aNpart)
 {
   kFmToGev = 0.197;

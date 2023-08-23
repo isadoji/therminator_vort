@@ -34,7 +34,7 @@
 extern ReadPar *sRPInstance;
 extern int      sTables;
 extern int      sModel;
-extern double	mOmega;
+extern double	mZeta;
 extern double	zRhoMax;
 Particle::Particle()
 {
@@ -51,7 +51,7 @@ Particle::Particle(double aRapidity, double aPt, double aPhip,
   px = aPt*TMath::Cos(aPhip);
   py = aPt*TMath::Sin(aPhip);
   double tMt = TMath::Hypot(GetMass(),aPt);
-  pz = tMt*TMath::SinH(aRapidity) + mOmega*GetMass()*aRho*TMath::Cos(aPhis)*TMath::Exp(-aRho*aRho/(2*zRhoMax*zRhoMax))/zRhoMax;
+  pz = tMt*TMath::SinH(aRapidity) + mZeta*GetMass()*aRho*TMath::Cos(aPhis)*TMath::Exp(-aRho*aRho/(2*zRhoMax*zRhoMax))/zRhoMax;
   
   rx = aRho*TMath::Cos(aPhis);
   ry = aRho*TMath::Sin(aPhis);
