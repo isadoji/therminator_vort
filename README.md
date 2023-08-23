@@ -1,6 +1,6 @@
 # Modified blast-wave model with thermal vorticity
 
-José Jorge Medina Serna, Isabel Domínguez Jiménez, Maréa Elena Tejeda-Yeomans$
+José Jorge Medina Serna, Isabel Domínguez Jiménez, MariaElena Tejeda-Yeomans
   
   
   # therminator_vort
