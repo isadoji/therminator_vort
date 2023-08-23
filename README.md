@@ -1,10 +1,7 @@
 # Modified blast-wave model with thermal vorticity
-￼José Jorge Medina Serna, Isabel Domínguez Jiménez, Maréa Elena Tejeda-Yeomans$^{3}$
-  \address{
-  $^{1}$Facultad de Ciencias F\'isico-Matem\'aticas, Universidad Aut\'onoma de Sinaloa, Avenida de las Am\'ericas y Boulevard Universitarios, Ciudad Universitaria, C.P. 80000, Culiac\'an, Sinaloa, M\'exico. \\
-  $^{2}$Instituto de Ciencias Nucleares, Universidad Nacional Aut\'onoma de M\'exico, Apartado Postal 70-543, CdMx 04510, M\'exico. \\
-  $^{3}$Facultad de Ciencias - CUICBAS, Universidad de Colima, Bernal D\'iaz del Castillo No. 340, Col. Villas San Sebasti\'an, 28045 Colima, Mexico.
-  }
+
+José Jorge Medina Serna, Isabel Domínguez Jiménez, Maréa Elena Tejeda-Yeomans$
+  
   
   # therminator_vort
 
