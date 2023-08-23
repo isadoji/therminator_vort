@@ -1,4 +1,4 @@
-$\Lambda$ and $\Bar{\Lambda}$ polarization from a modified blast-wave model with thermal vorticity
+$\Lambda$ and $\bar{\Lambda}$ polarization from a modified blast-wave model with thermal vorticity
 ￼
 %\title{Overall description of $\Lambda$ and $\overline{\Lambda}$ global polarization in semi-central heavy-ion collisions \\ at HADES, NICA and RHIC energies from the core-corona model}%
 ￼
