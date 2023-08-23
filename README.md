@@ -1,6 +1,6 @@
 # Modified blast-wave model with thermal vorticity
 
-$\textit{José Jorge Medina Serna, Isabel Domínguez Jiménez, MariaElena Tejeda-Yeomans}$
+$\textbf{José Jorge Medina Serna, Isabel Domínguez Jiménez  and MariaElena Tejeda-Yeomans}$
   
 THERMINATOR [1] is a Monte Carlo event generator designed to study particle production in relativistic heavy-ion collisions. To include the effects of vorticity, it is necessary to modify the following files (therminator_mod)
 
