@@ -77,9 +77,6 @@ Once the modifications described above have been made, therminator must be compi
 # Test (macros_vort)
 Already modified and compiled, one can control the intensity of the final vorticity of the system by changing the value of the input parameter Omega. Omega=0 value corresponds to the original model without modification. Still, if you want to verify that non-zero values ​​create an entry and exit of particles along the z-axis, you can perform a simple run with Omega=1. This is done by changing the value of Omega in the therminator.in file and running therm\_events and therm\_tree.
 
-![fig6e](https://github.com/isadoji/therminator_vort/assets/5864565/0e744756-956a-4030-befc-7f7b7b905a0e)
-
-
 # Bibliography
 [1] THERMINATOR 2: THERMal heavy IoN generATOR 2.
 
