@@ -93,7 +93,9 @@ Already modified and compiled, one can control the intensity of the final vortic
 
     Elsevier, 183, 3, (746--773) 2012
 
-[2] Rene Brun and Fons Rademakers, ROOT - An Object Oriented Data Analysis Framework,
+[2] ROOT - An Object Oriented Data Analysis Framework,
+
+    Rene Brun and Fons Rademakers, 
 
     Proceedings AIHENP'96 Workshop, Lausanne, Sep. 1996,
 
