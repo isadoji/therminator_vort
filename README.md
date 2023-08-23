@@ -4,7 +4,7 @@ THERMINATOR [1] is a Monte Carlo event generator designed for studies of particl
 
 https://www.ifj.edu.pl/dept/no4/nz41/programs/therminator/
 
-To include the effects of vorticity, it is necessary to modify the following files
+To include the effects of vorticity, it is necessary to modify the following files (therminator_mod)
 
 1. thermitator.in
 2. therm_events.cxx
@@ -82,7 +82,7 @@ L57 pz=tMt*TMath::Sinh(aRapidity) + mOmega*GetMass()*aRho*TMath::Cos(aPhis)*TMat
 # Compilation
 Once the modifications described above have been made, therminator must be compiled. For that you need a C++ compiler and the ROOT [2] libraries. The make command is executed in the directory where therminator is modified.
 
-# Test
+# Test (macros_vort)
 Already modified and compiled, one can control the intensity of the final vorticity of the system by changing the value of the input parameter Omega. Omega=0 value corresponds to the original model without modification, but if you want to verify that non-zero values ​​create an entry and exit of particles along the z axis, you can perform a simple run with Omega=1. This is done by changing the value of Omega in the therminator.in file and running therm\_events and therm\_tree.
 
 [1] THERMINATOR 2: THERMal heavy IoN generATOR 2.
